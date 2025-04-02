@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body style="background-color: black; color: antiquewhite;">
+        <!-- Login -->
+        <form action="" method="post">
+        <label for="txtUsuario">Login:</label>
+        <input
+        type="text" 
+        name="txtUsuario" 
+        id="txtUsuario" 
+        placeholder="Insira seu usuário..."
+        required
+        value="@gmail.com"
+        > <!--Fim login-->
+        <br>
+        <br>
+        <!-- Senha -->
+        <label for="txtSenha">Senha:</label>
+        <input 
+        type="password" 
+        name="txtSenha" 
+        id="txtSenha"
+        placeholder="Insira sua senha..."
+        required
+        maxlength="10"
+        minlength="5"
+        > <!-- Fim senha -->
+    
+        <br>
+    
+        <input type="checkbox">
+        <label for="">Eu aceito os termos para vender tudo</label>
+        <br>
+    <br>
+        <textarea name="" id=""></textarea>
+<br>
+        <select name="" id="">
+            <option value="" selected>Nenhum</option>
+            <option value="SP">SãoPaulo</option>
+            <option value="BC">BostonCeltics</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <button type="submit">Entrar</button>
+        <button type="reset">Limpar</button>
+    </form>
+
+</body>
+</html>
