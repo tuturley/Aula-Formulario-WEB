@@ -7,6 +7,6 @@ Eu aprendi a usufruir melhor do HTML, não usei css pois foi algo bem basico mes
 •Tecnologias usadas:
 Apenas HTML.
 
-•Se tiver como rodar/testar, explica como
+•Como funciona:
 Bom você abre o arquivo, ele abre um site apenas com uma box para voce preencher com um usuario e uma senha, apos isso ele retorna uma mensagem falando seja bem vindo, tal pessoa, sua senha
 está salva.
